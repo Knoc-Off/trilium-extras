@@ -1,0 +1,246 @@
+/* Theaming stuff, sets colors, etc. */
+:root {
+
+  --red: #cc4449 !important;;
+  --orange: #cc723b !important;
+  --yellow: #cc9e2c !important;
+  --green: #8c9124 !important;
+  --teal: #3d6b4d !important;
+  --cyan: #2b6e7a !important;
+  --blue: #16609b !important;
+  --indigo: #3a4477 !important;
+  --purple: #5e3055 !important;
+  --pink: #6f4866 !important;
+
+  --white: #f8f8f8 !important;
+  --gray: #393b3c !important;
+  --gray-dark: #242628 !important;
+  --primary: #3f84ba !important;
+  --secondary: #8b8c8d !important;
+  --success: #88b656 !important;
+  --info: #16609b !important;
+  --warning: #cc9e2c !important;
+  --danger: #cc4449 !important;
+  --light: #e8e8e8 !important;
+  --dark: #1a1c1d !important;
+
+
+
+  --theme-style: dark;
+
+  --main-font-family: Helvetica;
+  --main-font-size: normal;
+
+  --tree-font-family: Helvetica;
+  --tree-font-size: normal;
+
+  --detail-font-family: Helvetica;
+  --detail-font-size: normal;
+
+  --monospace-font-family: 'Lucida Console', 'Courier New', Courier;
+  --monospace-font-size: normal;
+
+  --main-background-color: #1d1f21;
+  --main-text-color: #e8e8e8;
+  --main-border-color: #242628;
+
+  --accented-background-color: #1a1c1d;
+  --more-accented-background-color: #242628;
+
+  --button-background-color: transparent;
+  --button-border-color: #242628;
+  --button-text-color: currentColor;
+  --button-border-radius: 0px;
+  --button-disabled-background-color: #1a1c1d;
+  --button-disabled-text-color: #8b8c8d;
+
+  --primary-button-background-color: #242628;
+  --primary-button-text-color: #8b8c8d;
+  --primary-button-border-color: #1d1f21;
+
+  --muted-text-color: #8b8c8d;
+
+  --input-text-color: #f8f8f8;
+  --input-background-color: #1d1f21;
+
+  --hover-item-text-color: #e8e8e8;
+  --hover-item-background-color: #1d1f21;
+  --hover-item-border-color: #1a1c1d;
+
+  --active-item-text-color: #e8e8e8;
+  --active-item-background-color: #242628;
+  --active-item-border-color: #1d1f21;
+
+  --menu-text-color: #e8e8e8;
+  --menu-background-color: #1d1f21;
+
+  --modal-background-color: #1a1c1d;
+  --modal-backdrop-color: #131415;
+
+  --left-pane-background-color: #1a1c1d;
+  --left-pane-text-color: #e8e8e8;
+
+  --launcher-pane-background-color: #131415;
+  --launcher-pane-text-color: #e8e8e8;
+
+  --active-tab-background-color: #242628;
+  --active-tab-hover-background-color: #393b3c;
+  --active-tab-text-color: #3f84ba;
+
+  --inactive-tab-background-color: #1a1c1d;
+  --inactive-tab-hover-background-color: #242628;
+  --inactive-tab-text-color: #8b8c8d;
+
+  --scrollbar-border-color: #1a1c1d;
+  --tooltip-background-color: #1a1c1d;
+  --link-color: #3f84ba;
+
+  --mermaid-theme: dark;
+  --ck-color-code-block-label-background: #242628;
+}
+
+.note-detail-relation-map .note-box {
+    border: 1px solid #666;
+    box-shadow: none !important;
+    opacity: 0.8;
+}
+
+.ck-content code {
+  background-color: #1a1c1d !important;
+}
+
+body .ck-content code {
+  background-color: #1a1c1d !important;
+}
+
+.ck.ck-editor__editable .ck-code_selected {
+  background-color: #242628 !important;
+}
+
+body ::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+body .CodeMirror {
+  filter: invert(90%) hue-rotate(180deg);
+}
+
+.excalidraw.theme--dark {
+  --theme-filter: invert(80%) hue-rotate(180deg) !important;
+}
+
+.gutter {
+  width: 2px !important;
+  background: #131415 !important; 
+}
+
+span.fancytree-custom-icon {
+  color: #3f84ba !important;
+  background: none;
+}
+
+.tree-actions {
+  background-color: #1a1c1d !important;
+}
+
+span.fancytree-active .fancytree-title {
+  font-weight: normal !important; 
+}
+
+span.fancytree-active {
+  border: 0px !important;
+  background-color: #242628 !important;
+}
+
+.tab-row-filler {
+  background-color: #1d1f21 !important;
+}
+
+.tab-row-widget .note-tab .note-tab-wrapper {
+  border-radius: 0px !important;
+}
+
+.tab-row-widget .note-tab[active] .note-tab-wrapper {
+  font-weight: normal !important;
+  font-style: italic !important;
+  border-radius: 0px !important;
+}
+
+.note-book-card {
+  border-radius: 0px !important;
+  background-color: #1a1c1d !important;
+}
+
+button.tree-floating-button:hover {
+  border: 0px !important;
+  background-color: #242628 !important;
+}
+
+.ck-content pre {
+  border: 1px solid #131415 !important;
+  border-radius: 0px !important;
+  background-color: #1a1c1d !important;
+}
+
+div#launcher-pane .global-menu-button {
+  filter: invert(0.5);
+}
+
+div#launcher-pane .global-menu-button:hover {
+  filter: invert(0);
+}
+
+.note-new-tab {
+  background-color: #1d1f21 !important;
+}
+
+span.fancytree-node:hover {
+  border: 0px !important;
+  background-color: #242628 !important;
+}
+
+#right-pane {
+  background-color: #1a1c1d !important;
+}
+
+.dropdown-menu.show {
+  background-color: #242628 !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.title-bar-buttons {
+  visibility: hidden !important;
+  width: 0 !important;
+}
+.tab-row-widget .tab-row-widget-container {
+  height: 90% !important;
+}
+
+.ck-content ul ul {
+  border-left: 2px solid #393b3c !important;
+}
+
+.bx.tree-item-button {
+  background-color: #1a1c1d !important;
+  position: absolute !important;
+  right: 10px !important;
+}
+
+/* This makes the test new lines appear less spaced out. preserves space, and makes is more readable */
+p {
+	margin-top: 0;
+	margin-bottom: 0.5rem !important;
+}
+
+/* This makes the note take up more of the avalable horizontal space, can decreese readability, but fits more onto one page */
+.note-split {
+	max-width: 95% !important;
+}
+
+/* Cant remember, i believe this does nothing, or not much */
+.component.scrolling-container {
+   padding-bottom: 0vh !important;   
+}
